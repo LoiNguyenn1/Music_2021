@@ -23,75 +23,124 @@ const app = {
     config : JSON.parse(localStorage.getItem(Player_Storage_Key)) || {},
     songs : [
         {
-        name: "Càng Níu Càng Dễ Mất",
-        singer: "MR.Siro",
-        path: "./asset/music/Càng Níu Giữ Càng Dễ Mất.mp3",
+        name: "Anh Ơi Tình Yêu Là Gì ? Là gì nhỉ :)))",
+        singer: "Diệp Anh",
+        path: "./asset/music/Anh Oi Tinh Yeu La Gi.mp3",
         image: "./asset/img/img1.jpg"
         },
         {
-        name: "Chạm Đáy Nỗi Đau ",
-        singer: "Erik",
-        path: "./asset/music/Chạm Đáy Nỗi Đau.mp3",
+        name: "Anh Sẽ Mạnh Mẽ Yêu Em Nhaaa  ",
+        singer: "Mr Siro",
+        path: "./asset/music/AnhSeManhMeYeuEm-MrSiro.mp3",
         image:
                 "./asset/img/img2.jpg"
         },
         {
-        name: "Chỉ Anh Hiểu Em",
-        singer: "Khắc Việt ",
-        path:
-            "./asset/music/Chỉ Anh Hiểu Em.mp3",
+        name: "Bức Tranh Từ Nước Mắttt",
+        singer: "Mr Siro ",
+        path:"./asset/music/BucTranhTuNuocMat.mp3",
         image: "./asset/img/img3.jpg"
         },
         {
-        name: "Chỉ Cần Em Hạnh Phúc",
-        singer: "Hồ Quang Hiếu",
-        path: "./asset/music/Chỉ Cần Em Hạnh Phúc.mp3",
+        name: "Càng Níu Giữ Càng Dễ Mất Thôiii",
+        singer: "Mr Siro",
+        path: "./asset/music/Càng Níu Giữ Càng Dễ Mất.mp3",
         image:
             "./asset/img/img4.jpg"
         },
         {
-        name: "Chia Tay Đừng Làm Bạn",
-        singer: "Khắc Hưng",
-        path: "./asset/music/Chia Tay Đừng Làm Bạn.mp3",
+        name: "Chạm Đáy Nỗi Đau Nàyyy",
+        singer: "Erik",
+        path: "./asset/music/Chạm Đáy Nỗi Đau.mp3",
         image:
             "./asset/img/img5.jpg"
         },
         {
-        name: "Chiếc Khăn Gió Ấm ",
-        singer: "Khánh Phương",
+        name: "Có Anh Ở Đây Rồi Đừng Sợ ",
+        singer: "Anh Quân Idol",
         path:
-            "./asset/music/Chiếc Khăn Gió Ấm.mp3",
+            "./asset/music/CoAnhODayRoi.mp3",
         image:
             "./asset/img/img6.jpg"
         },
         {
-        name: "Cho Em Một Lần Yêu",
-        singer: "Đông Nhi",
-        path: "./asset/music/Cho Em Một Lần Yêu.mp3",
+        name: "Đã Từng Vô Giáaaa",
+        singer: "Mr Siro",
+        path: "./asset/music/DaTungVoGia-MrSiro-4891849.mp3",
         image:
             "./asset/img/img7.jpg"
         },
         {
-            name: "Chờ Ngày Mưa Tan",
-            singer: "Noo Phước Thịnh",
-            path: "./asset/music/Chờ Ngày Mưa Tan.mp3",
+            name: "Day Dứt Nỗi Đauuu -.-",
+            singer: "Mr Siro",
+            path: "./asset/music/DayDutNoiDau-MrSiro.mp3",
             image:
             "./asset/img/img8.jpg"
         },
         {
-            name: "Có Khi Nào Rời Xa",
-            singer: "Bích Phương",
-            path: "./asset/music/Có Khi Nào Rời Xa.mp3",
+            name: "Dòng Thời Giannn",
+            singer: "Hoàng Yến Chibi",
+            path: "./asset/music/DongThoiGian.mp3",
             image:
             "./asset/img/img9.jpg"
         },
         {
-            name: "Có Lẽ Em",
+            name: "Đừng Ai Nhắc Về Anh Ấy Nữa Mà",
             singer: "Bích Phương",
-            path: "./asset/music/Có Lẽ Em.mp3",
+            path: "./asset/music/Dung-Ai-Nhac-Ve-Anh-Ay-Mr-Siro.mp3",
             image:
             "./asset/img/img10.jpg"
-        }
+        },
+        {
+            name: "Dưới Những Cơn Mưaaa >.>",
+            singer: "Mr Siro",
+            path: "./asset/music/Duoi-Nhung-Con-Mua-Mr-Siro.mp3",
+            image:
+            "./asset/img/img11.jpg"
+        },
+        {
+            name: "Em Say Anh Rồiii",
+            singer: "Thương Võ",
+            path: "./asset/music/Em Say Roi.mp3",
+            image:
+            "./asset/img/img1.jpg"
+        },
+        {
+            name: "Giúp Anh Trả Lời Những Câu Hỏi ",
+            singer: "Vương Anh Tú",
+            path: "./asset/music/GiupAnhTraLoiNhungCauHoi.mp3",
+            image:
+            "./asset/img/img9.jpg"
+        },
+        {
+            name: "Sống Như Những Đóa Hoaaa",
+            singer: "Hoàng Yến Chibi",
+            path: "./asset/music/SongNhuNhungDoaHoa.mp3",
+            image:
+            "./asset/img/img9.jpg"
+        },
+        {
+            name: "Tìm Được Nhau Khó Thế Nàooo",
+            singer: "Mr Siro",
+            path: "./asset/music/Tim-Duoc-Nhau-Kho-The-Nao-Mr-Siro.mp3",
+            image:
+            "./asset/img/img9.jpg"
+        },
+        {
+            name: "Tình Yêu Chắp Vá",
+            singer: "Mr Siro",
+            path: "./asset/music/Tinh-Yeu-Chap-Va-Mr-Siro.mp3",
+            image:
+            "./asset/img/img9.jpg"
+        },
+        {
+            name: "Vô Hình Trong Tim Em",
+            singer: "Mr Siro",
+            path: "./asset/music/Vo-Hinh-Trong-Tim-Em-Piano-Version-Mr-Siro.mp3",
+            image:
+            "./asset/img/img9.jpg"
+        },
+
     ],
     setconnfig :function (key , value){
         this.config[key] = value;
